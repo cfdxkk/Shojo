@@ -1,19 +1,30 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/Home.vue'
 
 const routes = [
   {
-    path: '/',
-    name: 'Home',
-    component: Home
-  },
-  {
-    path: '/about',
-    name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+    path: '/hotGroup/add',
+    name: 'addHotGroup',
+    component: () => import('@/components/hotGroup/AddHotGroup')
+  },{
+    path: '/hotGroup/remove',
+    name: 'removeHotGroup',
+    component: () => import('@/components/hotGroup/RemoveHotGroup')
+  },{
+    path: '/ogtUser/edit',
+    name: 'removeUser',
+    component: () => import('@/components/ogtUser/RemoveUser')
+  },{
+    path: '/ogtUser/info',
+    name: 'editUser',
+    component: () => import('@/components/ogtUser/EditUser')
+  },{
+    path: '/ogtGroup/edit',
+    name: 'editGroup',
+    component: () => import('@/components/ogtGroup/GroupInfo')
+  },{
+    path: '/ogtGroup/event',
+    name: 'editGroupEvent',
+    component: () => import('@/components/ogtGroup/GroupEvent')
   }
 ]
 

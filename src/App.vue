@@ -1,30 +1,53 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div>
+    <ogt-admin-header></ogt-admin-header>
+    <ogt-admin-sider></ogt-admin-sider>
+    <ogt-admin-content></ogt-admin-content>
   </div>
-  <router-view/>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+import ogtAdminHeader from "@/views/Header";
+import ogtAdminSider from "@/views/Sider";
+import ogtAdminContent from "@/views/Content";
 
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+export default {
+  name: "App",
+  components: {
+    ogtAdminHeader,
+    ogtAdminSider,
+    ogtAdminContent
   }
+}
+</script>
+
+<style>
+:root {
+  --full-screen-width: 100vw;
+  --full-screen-height: 100vh;
+
+  --zero: 0;
+  --zero-pixel: 0px;
+
+
+
+
+
+
+
+
+
+  --header-height: 50px;
+
+  --sider-width: 250px;
+
+
+
+
+
+
+
+  --top-layer: 1000;
+  --after-top-layer-1: 999;
 }
 </style>
