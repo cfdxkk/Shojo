@@ -122,7 +122,6 @@ export default {
     setUserUnBanedUrl() {return "http://" + this.$store.state.serverAddress + '/admin/setUserUnBaned'},
     removeUserUrl() {return "http://" + this.$store.state.serverAddress + '/admin/removeUser'},
     editUserInfoUrl() {return "http://" + this.$store.state.serverAddress + '/admin/editUserInfo'},
-
   },
   methods: {
     searchUser() {

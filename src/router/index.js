@@ -25,7 +25,16 @@ const routes = [
     path: '/ogtGroup/event',
     name: 'editGroupEvent',
     component: () => import('@/components/ogtGroup/GroupEvent')
+  },{
+    path: '/other/testImageUpload',
+    name: 'testImageUpload',
+    component: () => import('@/components/other/testImageUpload')
+  },{
+    path: '/other/testImageUpload2',
+    name: 'testImageUpload2',
+    component: () => import('@/components/other/testImageUpload2')
   }
+
 ]
 
 const router = createRouter({

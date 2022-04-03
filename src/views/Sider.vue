@@ -30,6 +30,14 @@
         <el-menu-item index="3-1" @click="goto('/ogtGroup/edit')">群聊管理</el-menu-item>
         <el-menu-item index="3-2" @click="goto('/ogtGroup/event')">群事件管理</el-menu-item>
       </el-sub-menu>
+
+      <el-sub-menu index="4">
+        <template #title>
+          <span>其他</span>
+        </template>
+        <el-menu-item index="4-1" @click="goto('/other/testImageUpload')">测试图片上传</el-menu-item>
+        <el-menu-item index="4-2" @click="goto('/other/testImageUpload2')">测试图片上传2</el-menu-item>
+      </el-sub-menu>
     </el-menu>
   </div>
 </template>
