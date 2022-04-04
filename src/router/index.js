@@ -33,6 +33,10 @@ const routes = [
     path: '/other/testImageUpload2',
     name: 'testImageUpload2',
     component: () => import('@/components/other/testImageUpload2')
+  },{
+    path: '/other/testImageUpload3',
+    name: 'testImageUpload3',
+    component: () => import('@/components/other/testImageUpload3')
   }
 
 ]

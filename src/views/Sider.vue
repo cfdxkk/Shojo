@@ -37,6 +37,7 @@
         </template>
         <el-menu-item index="4-1" @click="goto('/other/testImageUpload')">测试图片上传</el-menu-item>
         <el-menu-item index="4-2" @click="goto('/other/testImageUpload2')">测试图片上传2</el-menu-item>
+        <el-menu-item index="4-3" @click="goto('/other/testImageUpload3')">测试头像上传</el-menu-item>
       </el-sub-menu>
     </el-menu>
   </div>
