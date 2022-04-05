@@ -25,7 +25,7 @@ export default {
     }
   },
   computed: {
-    testImageUploadUrl() {return "http://" + this.$store.state.serverAddress + '/image/uploadr'},
+    testImageUploadUrl() {return "http://" + this.$store.state.serverAddress + '/image/upload'},
   },
   methods:{
     uploading(event){

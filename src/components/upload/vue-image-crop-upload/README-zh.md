@@ -27,7 +27,7 @@ IE10+
 ## 安装
 #### npm
 ```shell
-$ npm install vue-image-crop-uploadr
+$ npm install vue-image-crop-upload
 ```
 
 
@@ -136,24 +136,24 @@ $ npm install vue-image-crop-uploadr
 				this.imgDataUrl = imgDataUrl;
 			},
 			/**
-			 * uploadr success
+			 * upload success
 			 *
 			 * [param] jsonData   服务器返回数据，已进行json转码
 			 * [param] field
 			 */
 			cropUploadSuccess(jsonData, field){
-				console.log('-------- uploadr success --------');
+				console.log('-------- upload success --------');
 				console.log(jsonData);
 				console.log('field: ' + field);
 			},
 			/**
-			 * uploadr fail
+			 * upload fail
 			 *
 			 * [param] status    server api return error status, like 500
 			 * [param] field
 			 */
 			cropUploadFail(status, field){
-				console.log('-------- uploadr fail --------');
+				console.log('-------- upload fail --------');
 				console.log(status);
 				console.log('field: ' + field);
 			}
@@ -217,24 +217,24 @@ $ npm install vue-image-crop-uploadr
 				this.imgDataUrl = imgDataUrl;
 			},
 			/**
-			 * uploadr success
+			 * upload success
 			 *
 			 * [param] jsonData   服务器返回数据，已进行json转码
 			 * [param] field
 			 */
 			cropUploadSuccess(jsonData, field){
-				console.log('-------- uploadr success --------');
+				console.log('-------- upload success --------');
 				console.log(jsonData);
 				console.log('field: ' + field);
 			},
 			/**
-			 * uploadr fail
+			 * upload fail
 			 *
 			 * [param] status    server api return error status, like 500
 			 * [param] field
 			 */
 			cropUploadFail(status, field){
-				console.log('-------- uploadr fail --------');
+				console.log('-------- upload fail --------');
 				console.log(status);
 				console.log('field: ' + field);
 			}
@@ -298,24 +298,24 @@ $ npm install vue-image-crop-uploadr
 				this.imgDataUrl = imgDataUrl;
 			},
 			/**
-			 * uploadr success
+			 * upload success
 			 *
 			 * [param] jsonData   服务器返回数据，已进行json转码
 			 * [param] field
 			 */
 			cropUploadSuccess(jsonData, field){
-				console.log('-------- uploadr success --------');
+				console.log('-------- upload success --------');
 				console.log(jsonData);
 				console.log('field: ' + field);
 			},
 			/**
-			 * uploadr fail
+			 * upload fail
 			 *
 			 * [param] status    server api return error status, like 500
 			 * [param] field
 			 */
 			cropUploadFail(status, field){
-				console.log('-------- uploadr fail --------');
+				console.log('-------- upload fail --------');
 				console.log(status);
 				console.log('field: ' + field);
 			}
