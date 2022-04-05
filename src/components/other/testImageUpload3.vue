@@ -29,7 +29,7 @@
 </template>
 
 <script>
-import cropUpload from '../upload/vue-image-crop-upload/upload-3'
+import cropUpload from '../uploadr/vue-image-crop-upload/upload-3'
 export default {
   name: "testImageUpload3",
   components: {
@@ -71,13 +71,13 @@ export default {
       console.log('fieldddddddddddddddddddddddddddddd',field)
     },
     /**
-     * upload success
+     * uploadr success
      *
      * [param] jsonData   服务器返回数据，已进行json转码
      * [param] field
      */
     cropUploadSuccess(jsonData, field, imgDataUrl){
-      console.log('-------- upload success --------');
+      console.log('-------- uploadr success --------');
       console.log(jsonData);
       console.log('field: ',field);
       console.log('createImgUrl', imgDataUrl)
@@ -85,13 +85,13 @@ export default {
       document.getElementById('avBox').style.backgroundImage = `url("${imgDataUrl}")`
     },
     /**
-     * upload fail
+     * uploadr fail
      *
      * [param] status    server api return error status, like 500
      * [param] field
      */
     cropUploadFail(status, field){
-      console.log('-------- upload fail --------');
+      console.log('-------- uploadr fail --------');
       console.log(status);
       console.log('field: ' + field);
     }

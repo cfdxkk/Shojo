@@ -27,7 +27,7 @@ export default {
     }
   },
   computed: {
-    testImageUploadUrl() {return "http://" + this.$store.state.serverAddress + '/image/upload'},
+    testImageUploadUrl() {return "http://" + this.$store.state.serverAddress + '/image/uploadr'},
   },
   methods: {
     handleAvatarSuccess( response, uploadFile ) {

@@ -896,7 +896,7 @@ export default {
 </script>
 
 <!--
-<style lang='sass' src="./scss/upload.scss">
+<style lang='sass' src="./scss/uploadr.scss">
 </style> -->
 
 <style>

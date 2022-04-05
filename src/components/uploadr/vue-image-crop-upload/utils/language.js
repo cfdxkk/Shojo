@@ -38,7 +38,7 @@ export default {
 		}
 	},
 	en: {
-		hint: 'Click or drag the file here to upload',
+		hint: 'Click or drag the file here to uploadr',
 		loading: 'Uploading…',
 		noSupported: 'Browser is not supported, please use IE10+ or other browsers',
 		success: 'Upload success',
