@@ -42,6 +42,7 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
+    "ignorePatterns": ["vue-image-crop-upload/*"],
     "rules": {}
   },
   "browserslist": [
