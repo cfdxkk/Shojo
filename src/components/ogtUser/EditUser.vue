@@ -54,9 +54,9 @@
 
     <el-dialog v-model="dialogFormVisible" title="编辑用户信息" width="500px">
       <el-form :model="userInfo">
-        <el-form-item label="昵称" :label-width="formLabelWidth">
-          <el-input v-model="userInfo.username" autocomplete="off"></el-input>
-        </el-form-item>
+<!--        <el-form-item label="昵称" :label-width="formLabelWidth">-->
+<!--          <el-input v-model="userInfo.username" autocomplete="off"></el-input>-->
+<!--        </el-form-item>-->
         <el-form-item label="密码" :label-width="formLabelWidth">
           <el-input v-model="userInfo.password" autocomplete="off"></el-input>
         </el-form-item>
