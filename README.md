@@ -1,4 +1,7 @@
 # shojo
+this name is a Respect of [calibur.tv's shojo](https://github.com/calibur-tv/Shojo) project
+
+this is the admin front end of [OGT_system](https://github.com/cfdxkk/OGT_System_Client) 
 
 ## Project setup
 ```
